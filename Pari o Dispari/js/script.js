@@ -51,9 +51,9 @@ function isEvenOrOdd(sum){
     
     //IMPOSTO I PARAMETRI:PARI O DISPARI
     if(sum % 2 === 0){
-        sumEvenOrOdd = 'Pari';
+        sumEvenOrOdd = 'pari';
     }else{
-        sumEvenOrOdd = 'Dispari';
+        sumEvenOrOdd = 'dispari';
     }
     console.log('SOMMA NUMERI:PARI/DISPARI ',sumEvenOrOdd )
 }
