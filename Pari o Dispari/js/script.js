@@ -48,7 +48,7 @@ function getRndInteger(min, max) {
  //RETURN:'PARI' O 'DISPARI'
 function isEvenOrOdd(sum){
     let sumEvenOrOdd;
-    
+
     //IMPOSTO I PARAMETRI:PARI O DISPARI
     if(sum % 2 === 0){
         sumEvenOrOdd = 'pari';
@@ -56,8 +56,9 @@ function isEvenOrOdd(sum){
         sumEvenOrOdd = 'dispari';
     }
     console.log('SOMMA NUMERI:PARI/DISPARI ',sumEvenOrOdd )
+    return sumEvenOrOdd;
 }
- 
+
 //DICHIARIAMO VITTORIA O SCONFITTA
 const sumEvenOrOdd = isEvenOrOdd(sum);
 
